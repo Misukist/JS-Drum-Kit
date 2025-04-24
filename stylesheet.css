@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.keys {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.key {
+    width: 60px;  /* Määrittele leveys tarpeen mukaan */
+    height: 60px; /* Määrittele korkeus tarpeen mukaan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px; /* Lisää hieman väliä */
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px; /* Pyöristetyt kulmat */
+    flex-direction: column;
+}

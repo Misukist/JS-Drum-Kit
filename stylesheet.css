@@ -4,23 +4,49 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    background: url("/BG-image/pexels-rabi-a-157457438-10740898.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .keys {
     padding: 10px;
     display: flex;
     flex-direction: row;
+
 }
 
 .key {
-    width: 60px;  /* Määrittele leveys tarpeen mukaan */
-    height: 60px; /* Määrittele korkeus tarpeen mukaan */
+    gap: 3px;
+    width: 70px; 
+    height: 70px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px; /* Lisää hieman väliä */
-    background-color: #4CAF50;
+    margin: 5px; 
+    background-color: #0000006e;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.699);
     color: white;
-    border-radius: 5px; /* Pyöristetyt kulmat */
+    border-radius: 5px; 
     flex-direction: column;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+.sound {
+    font-weight: normal;
+    color: rgb(211, 145, 255);
+}
+
+.letter {
+    font-size: 25px;
+    font-weight: bold;
 }

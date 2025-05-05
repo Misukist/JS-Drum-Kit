@@ -2,7 +2,7 @@
 
 Tämä on selainpohjainen rumpukoneprojekti, jossa näppäinten painallus käynnistää äänen ja visuaalisen animaation.
 
-Projekti on rakennettu seuraavilla teknologioilla:
+Projekti on rakennettu:
 
 🧱 HTML – käyttöliittymän rakenne
 
@@ -12,4 +12,6 @@ Projekti on rakennettu seuraavilla teknologioilla:
 
 
 ![SHOWCASE](/Showcase/Layout.jpg)
+
+# Button Pressed
 ![SHOWCASE](/Showcase/buttonpressed.jpg)

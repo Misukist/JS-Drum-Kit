@@ -32,13 +32,13 @@ body {
     color: white;
     border-radius: 5px; 
     flex-direction: column;
-    transition: all 0.07s;
+    transition: all 2.07s;
 }
 
 .playing {
     transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 10px #ffc600;
+    border-color: #c333fc;
+    box-shadow: 0 0 10px #c228ff;
 }
 
 .sound {
